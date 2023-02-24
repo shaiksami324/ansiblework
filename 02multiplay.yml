@@ -31,7 +31,7 @@
   - name: Update group1 server
     hosts: g1
   
-    tasks:
+  tasks:
   - name: creat directory
     file:
       path: /home/centos/new_dir_group1
